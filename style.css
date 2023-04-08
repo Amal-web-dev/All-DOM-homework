@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+header {
+    height: 88px;
+    width: 100%;
+}
+
+.container {
+    width: 1700px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header-top {
+    height: 44px;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-bottom {
+    height: 44px;
+    width: 100%;
+    background-color: #F5F5F7;
+}
+
+.header-top-center {
+    display: flex;
+    align-items: center;
+}
+
+.header-top-center p {
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+.header-iphone-logo {
+    filter: invert(30%);
+    transition: 300ms;
+}
+
+.header-iphone-logo:hover {
+    filter: invert(0%);
+}
+
+.header-logo {
+    filter: invert(30%);
+    margin-left: 35px;
+}
+
+
+.header-logo:hover {
+    filter: invert(0%);
+}
+
+.header-text {
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-text p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.item-1 {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.box-1 {
+    width: 980px;
+    height: 66px;
+    background-color: #F5F5F7;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.item-in-box {
+    width: 210px;
+    display: flex;
+}
+
+.item-in-box-1 a {
+    color: #478FD9;
+}
+
+.logo-box {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
+.item-in-box {
+    margin-left: 40px;
+}
+
+.item-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 8px;
+}
+
+.box-p-1 {
+    color: #BF4852;
+    font-size: 17px;
+}
+
+.box-p-2 {
+    color: black;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 10px 0 30px 0;
+}
+
+.box-p-3 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.btn-block {
+    border-radius: 20px;
+    background-color: #F5F5F7;
+    border: none;
+    padding: 12px 16px;
+    margin: 6px 0;
+}
+
+.btn-block-2 {
+    margin-left: -50px;
+} 
+
+.iphone-photo-block {
+    width: 980px;
+    height: 460px;
+}
+
+.iphone-block img{
+    border-radius: 20px;
+    border: none;
+    margin: 70px 0 0 0;
+    position: sticky;
+    top: 100px;
+}
+
+.iphone-block {
+    height: 2000px;
+}
+
+.iphone-right-parametr {
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 420px;
+}
+
+.iphone-right-parametr span {
+    color: gray;
+}
+
+.iphone-right-parametr h1 {
+    font-size: 24px;
+}
+
+.iphone-14-block {
+    width: 368px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid #D2D2D7;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    transition: 300ms;
+}
+
+.iphone-14-block:hover {
+    border: 1px solid black;
+
+}
+
+.iphone-14-left  {
+     width: 154px;
+}
+
+.p-iphone-14 {
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.p-iphone-14-2 {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.iphone-14-right p{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.p-iphone-14-right1 {
+    margin-left: 110px;
+}
+
+.p-iphone-14-right2 {
+    margin-left: 100px;
+}
+
+.p-iphone-14-right3 {
+    margin-left: 80px;
+}
+
+.p-iphone-14-right4 {
+    margin-left: 130px;
+}
+
+.support-block {
+    width: 368px;
+    height: 100px;
+    border-radius: 10px;
+    border: none;
+    background-color: #F5F5F7;
+    margin-top: 30px;
+    padding: 10px;
+    position: relative;
+}
+
+.support-block p {
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.p-support {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.support-block button {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid #48484A;
+    color: #48484A;
+    transition: 100ms;
+    padding: 0 1px 0 0;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.support-block:hover button {
+    background-color: #48484A;
+    color: white;
+}
+
+.h1-parametr {
+    margin-top: 100px;
+}
+
+.p-parametr {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.iphone-14-block-click {
+    width: 368px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    transition: 300ms;
+    box-shadow: 0 0 0 5px blue;
+}
+
+.button-block button {
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    border: none;
+    margin: 30px 10px 0 0;
+}
+
+.btn-color-blue {
+    background-color: #0071e3;
+}
+
+.btn-color-purple {
+    background-color: rgb(180, 152, 180);
+}
+
+.btn-color-yellow {
+    background-color: yellow;
+}
+
+.btn-color-midnight {
+    background-color: rgb(75, 75, 156);
+}
+
+.btn-color-starlight {
+    background-color: rgb(245, 239, 239);
+}
+
+.btn-color-red {
+    background-color: red;
+    margin-top: 10px !important;
+}
+
+.span-color {
+    color: red;
+    margin: -33px 0 0 40px;
+    font-weight: 600;
+}
+
+.p-new {
+    color: rgb(165, 165, 103);
+    margin: 10px 0 -15px 90px;
+}
+
+.p-under-color {
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+.h1-parametr-2 {
+    margin-top: 100px;
+}
+
+.p-iphone-14-3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.plus-num {
+    width: 22px;
+    height: 22px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(211, 121, 121);
+    margin-top: 10px;
+    color: white;
+}
+
+.minus-num {
+    width: 22px;
+    height: 22px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(140, 140, 201);
+    color: white;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.p-num {
+    font-size: 20px;
+}
+
+.task-2 {
+     text-align: center;
+     margin-top: 50px;
+}
+
+.random-num {
+    border-radius: 2px;
+    width: 160px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: transparent;
+    margin-top: 10px;
+}
