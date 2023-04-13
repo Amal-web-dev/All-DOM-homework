@@ -65,6 +65,13 @@ header {
     margin-left: 35px;
 }
 
+.header-top-center a {
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 35px;
+    color: black;
+}
+
 .header-iphone-logo {
     filter: invert(30%);
     transition: 300ms;
@@ -623,4 +630,11 @@ header {
     font-size: 12px;
     margin-right: 50px;
     margin-top: 30px;
+}
+
+.btn-color {
+    cursor: pointer;
+}
+button:active {
+    scale: .9;
 }

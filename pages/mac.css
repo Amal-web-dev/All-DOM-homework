@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+button:active {
+    scale: .9;
+}
+
+header {
+    height: 88px;
+    width: 100%;
+}
+
+body {
+    position: relative;
+}
+
+.header-top {
+    height: 44px;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-bottom {
+    height: 44px;
+    width: 100%;
+    background-color: #F5F5F7;
+    animation: header-animate 3s;
+}
+
+@keyframes header-animate {
+    0% {
+        background-color: #F5F5F7;
+        color: white;
+    }
+
+    50% {
+        background-color: #0071e3;
+        color: white;
+    }
+
+    100% {
+        background-color: #F5F5F7;
+        color: black;
+    }
+}
+
+.header-top-center {
+    display: flex;
+    align-items: center;
+}
+
+.header-top-center p {
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+.header-top-center a {
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 35px;
+    color: black;
+}
+
+.header-iphone-logo {
+    filter: invert(30%);
+    transition: 300ms;
+}
+
+.header-iphone-logo:hover {
+    filter: invert(0%);
+}
+
+.header-logo {
+    filter: invert(30%);
+    margin-left: 35px;
+}
+
+
+.header-logo:hover {
+    filter: invert(0%);
+}
+
+.header-text {
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-text p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menu-active {
+    border-bottom: 1px solid black;
+}
+
+center {
+    margin: 0 auto;
+    max-width: 1000px;
+    margin-top: 70px;
+    margin-bottom: 134px;
+}
+
+.mac-top {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mac-top h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.mac-photo img {
+    max-width: 312px;
+    max-height: 290px;
+    transition: 0.5s ease;
+}
+
+.mac-block {
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 63px;
+}
+
+.mac-photo-right h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.mac-photo-right a {
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: -170px;
+    color: #0071E3;
+}
+
+.mac-photo-right p {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 48px;
+    margin-left: -110px;
+}
+
+.mac-bottom {
+    margin-top: 59px;
+}
+
+.white {
+    width: 155px;
+    height: 42px;
+    border: none;
+    background: #0071E3;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: .3ms;
+}
+
+.space-grey {
+    width: 155px;
+    height: 42px;
+    margin-left: 11px;
+    border: none;
+    background: #CFE7FF;
+    border-radius: 10px;
+    color: #797979;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.mamory-1 {
+    margin-top: 50px;
+    border: 2px solid #007FFF;
+    max-width: 321px;
+    height: 57px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 18px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.mamory {
+    border: 2px solid #CFE7FF;
+    max-width: 321px;
+    height: 57px;
+    border-radius: 10px;
+    margin-top: 7px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 18px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.burger {
+    position: fixed;
+    height: 100vh;
+    width: 592px;
+    right: 0px;
+    top: 0;
+    background-color: black;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(100%);
+}
+
+.p-burger {
+    cursor: pointer;
+}
+
+.back-btn {
+    filter: invert(1);
+    cursor: pointer;
+    height: 36px;
+    margin-left: 92%;
+    margin-top: 5px;
+}
+
+.burger.show {
+    transform: translateX(0%);
+}
+
+.menu-text {
+    color: white;
+    margin: 200px 0 0 57px;
+}
+
+.menu-text p{
+    margin-top: 12px;
+    cursor: pointer;
+}

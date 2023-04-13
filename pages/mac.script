@@ -1,0 +1,57 @@
+const imgMac = document.querySelector('.mac-logo')
+let white = document.querySelector('.white')
+let spaceGrey = document.querySelector('.space-grey')
+let macBlock = document.querySelector('.mac-photo')
+let a = document.querySelector('.a')
+
+spaceGrey.onclick = () => {
+    imgMac.setAttribute('src', './mac-photo/mbp14-silver-select-202110 1.png')
+    spaceGrey.style.background = '#0071E3'
+    spaceGrey.style.color = 'white'
+    a.style.marginLeft = '-130px'
+    white.style.background = '#CFE7FF'
+    white.style.color = '#797979'
+    a.innerHTML = 'Space grey'
+}
+
+white.onclick = () => {
+    imgMac.setAttribute('src', './mac-photo/mbp14-spacegray-select-202110 1.png')
+    spaceGrey.style.background = '#CFE7FF'
+    spaceGrey.style.color = '#797979'
+    white.style.background = '#0071E3'
+    white.style.color = 'white'
+    a.innerHTML = 'White'
+    a.style.marginLeft = '-170px'
+}
+
+const addPrice = document.querySelectorAll('[data-GB]')
+const price = document.querySelector('.price')
+let orgPrice = +price.innerHTML
+let add = 0
+let mmrOne = document.querySelector('.mamory-1')
+
+addPrice.forEach((bttn) => {
+    bttn.onclick = () => {
+         add = +bttn.getAttribute('data-GB')
+        price.innerHTML = orgPrice + add
+        bttn.style.border = '2px solid #007FFF'
+      addPrice.forEach((otherBttn) => {
+      if (otherBttn !== bttn) {
+        otherBttn.style.border = '2px solid #CFE7FF'
+        mmrOne.style.border = '2px solid #CFE7FF  !important'
+      }
+    })
+    }
+})
+
+let burger = document.querySelector('.burger')
+let burgerClick = document.querySelector('.p-burger')
+let backClick = document.querySelector('.back-btn')
+
+burgerClick.onclick = () => {
+  burger.classList.add('show')
+}
+
+backClick.onclick = () => {
+  burger.classList.remove('show')
+}
